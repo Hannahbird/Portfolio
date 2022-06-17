@@ -36,7 +36,13 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Screenshot of deployed link
 
+C:\Users\hanna\Desktop\projects\portfolio\assets\images\portfolio-screenshot.png
+
+## Recording of deployed link
+
+https://youtu.be/7ZArtgCRV_k
 
 ## Review
 
