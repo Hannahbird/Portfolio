@@ -1,112 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/CSS/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hannah Brownson Portfolio</title>
-    </head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-<!-- 
-TODO: 
-    -Filling in About Me section
-    -add picture to header 
-    -Adding proper css to the work section
-    -Flexbox
-    -Mediaqueries
-    -Hover functionality on links in nav/pictures
- -->
-    <body >
-
+<body>
     <header>
-        <h1>
-           <a>Hannah Brownson</a>
-        </h1>
-
-<!-- NAV BAR -->
-    <nav>
-        <ul>
-            <li><a href="#About-Me">About Me</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#Contact Me">Contact Me</a></li>
-            <li><a href="./assets/Hannah-Brownson.pdf">Resume</a></li>
-        </ul>
-    </nav>
+        <h1>Hannah Brownson</h1>
+        <nav>
+            <ul>
+                <li><a href="#About-Me">About Me</a></li>
+                <li><a href="#My-Work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="./assets/Hannah-Brownson.pdf">Resume</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section class="hero">
-        <img class="background-img" src="./assets/images/tree.JPG" alt="picture of tree with blurred background">
-    </section>
-
-<!-- MAIN BODY -->
-  
-<main>
-    <h2 class="section-title">About Me</h2>
-    <div class="content">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
-        </p>
-    </div>
     
-        <section>
-          <aside id="work" class="work">
-            <h2 class="section-title" > My Work</h2>
-            <div class="work-flex">
-              
-            </div>       
-          </aside>
-            <div class="work-content">
-                <div class="main-card" >
-                  <h4 class="img-caption">Run Buddy</h4>
-                  <img src="./assets/images/run-buddy.jpg" class="main-img">
-                </div>
-                        
-                <div class="small-card ">
-                  <h4 class="img-caption-1">Surf Report</h4>
-                  <img src="./assets/images/surf-report.jpg" class="small-img"/>           
-                </div>
-                        
-                <div class="small-card">
-                  <h4 class="img-caption-2">LED Wall</h4>
-                  <img src="./assets/images/led-wall.jpg" class="small-img"/>
-                </div>
-            
-                <div class="small-card">
-                  <h4 class="img-caption-3">Calculator</h4>
-                  <img src="./assets/images/calculator.jpg" class="small-img" />
-                </div>
-            
-                <div class="small-card">
-                  <h4 class="img-caption-4">Horiseon</h4>   
-                  <img src="./assets/images/horiseon.jpg" #id="small-img" class="small-img">      
+    <section class="hero">
+        <img class="profile" src="./assets/images/me.JPG" alt="selfie of hannah brownson">
+    </section>
+    
+    <main>
+        <aside id="about">About Me
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            My Work
+        </aside>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est temporibus ex ad obcaecati dolores pariatur repellat. Reprehenderit accusamus, blanditiis quibusdam suscipit quaerat distinctio aperiam repellat, temporibus consectetur numquam dolor.
+            <div class="focus" id="My-Work">
+                <a href="https://hannahbird.github.io/run-buddy/" target="_blank">
+                    <section class="bigBoy">
+                        <img class="bigBoy-img" src="./assets/images/run-buddy.jpg"
+                            alt="someone tying shoes before running">
+                        <h4 class="card0">Run Buddy</h4>
+                    </section>
+                </a>
+                <div class="projects">
+                    <a href="https://www.surf-forecast.com/breaks/Folly-Beach-Pier" target="_blank">
+                        <section class="lilCards">
+                            <img class="lilcard-img" src="./assets/images/surf-report.jpg"
+                                alt="waves crashing with a surfer in the distance">
+                            <h4 class="card1">Surf Report</h4>
+                        </section>
+                    </a>
+                        <section class="lilCards">
+                            <img class="lilcard-img" src="./assets/images/led-wall.jpg"
+                                alt="wall of LED lights in gradient colors">
+                            <h4 class="card2">LED Wall</h4>
+                        </section>
+                    </a>
+                    <a href="https://www.desmos.com/scientific" target="_blank">
+                        <section class="lilCards">
+                            <img class="lilcard-img" src="./assets/images/calculator.jpg"
+                                alt="someone using a calculator">
+                            <h4 class="card3">Calculator</h4>
+                        </section>
+                    </a>
+                    <a href="https://hannahbird.github.io/refactor-challenge/" target="_blank">
+                        <section class="lilCards">
+                            <img class="lilcard-img" src="./assets/images/horiseon.jpg"
+                                alt="People having a collaborative meeting">
+                            <h4 class="card4">Horiseon</h4>
+                        </section>
+                    </a>
                 </div>
             </div>
-    </section>
+        </div>
+    </main>
 
-</main>
+    <footer>
+        <aside id="contactMe">Contact Me</aside>
+        <div id="contact">
 
-<!-- FOOTER / CONTACT ME  -->
-
-        <footer id="contact-me">
-         <h3>Contact Me</h3>
-
-    <!-- CONTACT LINKS -->
-            <ul class="link">
-                <li>
-                    <a href="">(801)928-1402</a>
-                </li>
-                <li>
-                    <a href="mailto:hannahbrownson18@gmail.com">hannahbrownson18@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://github.com/Hannahbird">Github</a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/user/hannahbanana0924">Spotify</a>
-                </li>
-            </ul>
-        </footer>
-
-
+            <div>
+                <a href="https://goo.gl/maps/3Cco3LX8h7AobyiB9">Lexington, SC
+                    29072</a>
+                
+            </div>
+            <div>
+                <a href="">(801)928-1402</a>
+            </div>
+            <div>
+                <a href="mailto:hannahbrownson18@gmail.com">hannahbrownson18@gmail.com</a>
+            </div>
+            <div>
+                <a href="https://github.com/Hannahbird">Github</a>
+            </div>
+            <div>
+                <a href="https://open.spotify.com/user/hannahbanana0924">Spotify</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
