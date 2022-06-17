@@ -244,38 +244,88 @@ address,
 }
 
 /* @media screen and (max-width: 980px) {
-    .hero {
+    header { 
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    }
+    header h1 {
         width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul a {
+        font-size: 20px;  
+    }
+
+    .hero h2, .profile {
+        width: 20%;
+    }
+
+    .hero h2 {
+        width: 80%;
     }
 
     #about {
-        width:30%;
+        width:80%;
     }
 
     .projects {
-        flex: 0 100%;  
+        flex: 0 70%;
+    }
+
+    #contactMe {
+        flex: auto;
     }
 
     
-}
+} */
 
-@media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) {
+    section .hero {
+        padding: 30px 15px;
+    }
+
+    .hero h2, .profile {
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero h2 {
+        /* width: 80%; */
+
+    /* }
+
+    .bigBoy, .lilcards {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;   
+    }
+
+    .bigBoy-img, .lilcard-img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+} */
+
+/* @media screen and (max-width: 575px) {
     .hero {
         width: 100%;
     }
 
-    #about {
-        width:30%;
-    }
-
-    .projects {
-        flex: 0 100%;  
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .hero {
-        width: 100%;
+    .hero h2, .profile {
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #about {
@@ -285,4 +335,4 @@ address,
     .projects {
         flex: 0 100%;  
     }
-} */
+}   */
