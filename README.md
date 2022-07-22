@@ -28,7 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot of deployed link
 
-![](assets/images/portfolio-screenshot.png)
+![](assets/images/portfolio.png)
 
 ## Recording of deployed link
 
